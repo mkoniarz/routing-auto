@@ -1,5 +1,8 @@
 {
-    "name": "symfony-cmf/routing-auto",
+    "name": "mkoniarz/routing-auto",
+    "replace" : {
+	"symfony-cmf/routing-auto":"2.0.0-RC1"
+    },
     "description": "Component for automatically creating and managing routes for persisted objects",
     "homepage": "http://cmf.symfony.com",
     "license": "MIT",
@@ -15,7 +18,7 @@
         "symfony-cmf/routing": "^1.2|^2.0",
         "symfony/options-resolver": "^2.8|^3.0",
         "symfony/config": "^2.8|^3.0",
-        "jms/metadata": "1.5.*"
+        "jms/metadata": "1.6.*"
     },
     "require-dev": {
         "symfony/yaml": "^2.8|^3.0",
